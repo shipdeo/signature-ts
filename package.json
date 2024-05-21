@@ -1,14 +1,14 @@
 {
   "name": "shipdeo-signature-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Library for extract signature shipdeo",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "build": "npm run test && tsc",
     "test": "jest --collect-coverage"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Shipdeo", "Signature"],
+  "author": "Hendarsu",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.12",
@@ -20,5 +20,6 @@
   },
   "dependencies": {
     "jsonwebtoken": "^9.0.2"
-  }
+  },
+  "repository":"https://github.com/shipdeo/signature-ts"
 }
