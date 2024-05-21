@@ -1,7 +1,7 @@
 // tests/index.test.ts
 import { validate } from '../src';
 
-const SIGNATURE_FAKE = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRJZCI6Ik1uN2UwVnVLdk42ZWlUMGEiLCJjbGllbnRTZWNyZXQiOiJHVjlHYWRKYjQweTdlTDc5IiwiYXBwVHlwZSI6IkludGVncmFzaSIsImlhdCI6MTcxNjI3NzM0MSwiZXhwIjoxNzE2MjgwOTQxfQ.BDs0R_VvhbpW25_yWuzM-eVCXj2PRr6jtOeDb14R_EI";
+const SIGNATURE_FAKE = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRJZCI6IlVBeDNvcjZmQ2dURFRpM2QiLCJjbGllbnRTZWNyZXQiOiJoUHZzTThoVmZaZnJjdmpRIiwiYXBwVHlwZSI6IkludGVncmFzaSIsImlhdCI6MTcxNjI4MjI2OCwiZXhwIjoxNzE2Mjg1ODY4fQ.9vPAX1ztXK7e4wsb_69YbIWJMHIa1ye6M2Y1MX2Y-2s";
 
 describe("index.ts", () => {
     test('Signature return payload not null!', () => {
