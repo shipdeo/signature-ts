@@ -1,6 +1,6 @@
 {
   "name": "shipdeo-signature-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Library for extract signature shipdeo",
   "main": "src/index.js",
   "scripts": {
